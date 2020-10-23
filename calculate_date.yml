@@ -1,0 +1,34 @@
+add:
+  datas:
+    - [1,2,3]
+    - [2.3,4.22,6.52]
+    - - 2555
+      - 176
+      - 2731
+    - - -39
+      - -24
+      - -63
+    - - 0
+      - 334
+      - 334
+  ids:
+    - "int case"
+    - "flaot case"
+    - "bignum case"
+    - "minus case"
+    - "zero case"
+div:
+  datas:
+    - [64,4,16]
+    - [0.44,0.2,2.2]
+    - - 4868
+      - 4
+      - 1217
+    - [-72,4,-18]
+    - [22,0,True]
+  ids:
+    - "int case"
+    - "flaot case"
+    - "bignum case"
+    - "minus case"
+    - "zero case"
