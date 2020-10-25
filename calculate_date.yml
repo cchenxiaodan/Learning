@@ -1,7 +1,7 @@
 add:
   datas:
     - [1,2,3]
-    - [2.3,4.22,6.52]
+    - [2.1,4.2,6.3]
     - - 2555
       - 176
       - 2731
@@ -26,6 +26,40 @@ div:
       - 1217
     - [-72,4,-18]
     - [22,0,True]
+  ids:
+    - "int case"
+    - "flaot case"
+    - "bignum case"
+    - "minus case"
+    - "zero case"
+
+
+mul:
+  datas:
+    - [2,4,8]
+    - [2.3,4,9.2]
+    - [200,400,80000]
+    - - -3
+      - 40
+      - -120
+    - [0,333,0]
+
+  ids:
+    - "int case"
+    - "flaot case"
+    - "bignum case"
+    - "minus case"
+    - "zero case"
+
+sub:
+  datas:
+    - [2,4,-2]
+    - [12.3,4,8.3]
+    - [4000,1333,2667]
+    - - -3
+      - -40
+      - 37
+    - [0,333,-333]
   ids:
     - "int case"
     - "flaot case"
