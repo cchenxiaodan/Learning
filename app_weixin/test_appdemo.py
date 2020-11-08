@@ -5,7 +5,6 @@ import time
 
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 
