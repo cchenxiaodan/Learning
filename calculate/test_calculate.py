@@ -5,7 +5,7 @@ import allure
 
 @allure.feature("数据加载")
 def get_datas(mudle, content):
-    with open('./calculate_date.yml') as f:
+    with open('calculate_date.yml') as f:
         data = yaml.safe_load(f)
     add_datas = data[mudle][content]
     return add_datas
