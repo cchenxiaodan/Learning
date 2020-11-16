@@ -1,0 +1,20 @@
+goto_maket:
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/post_status"]'
+    action: click
+
+  - by: xpath
+    locator: '//*[@resource-id="android:id/tabs"]//*[@text="行情"]'
+    action: click
+
+goto_search:
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/action_search"]'
+    action: click
+
+search:
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/search_input_text"]'
+    action: sendkey
+    content: "aliba"
+
